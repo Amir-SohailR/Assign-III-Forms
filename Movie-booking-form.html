@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF=8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <form align="left" style="font-family:Times New Roman; font-size:28px; font-style:bolder;" >
+        <body>
+            <table align="center"  width="75%" cellspacing="5px" cellpadding="40px"  bgcolor="lightsteelblue" border="10px">
+                <tbody  bgcolor="lightsteelblue">
+                <h1 align="center"> Free Movie Booking Form</h1>
+                <hr>
+                <tr>
+                    <td><label for="Movie">Movie Title</label><br>
+                        <input type="text" name="movie" size="100" placeholder="Interstellar"></td>
+                </tr>
+                <tr>
+                    <td><label for="Dir">Director</label><br>
+                        <input type="text" name="fname" size="35" placeholder="First name">
+                        <input type="text" name="sname" size="35" placeholder="Second name">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Date">Date</label><br>
+                        <input type="date" name="date" placeholder="MM-DD-YYYY">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Time">Time</label><br>
+                        <input type="datetime" name="datetime" size="35" placeholder="HH:MM">
+                        <select id="session" name="session" placeholder="Select Session">
+                            <option value="ss">Select Session</option>
+                            <option value="AM">AM</option>
+                            <option value="PM">PM</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Address">Address</label><br>
+                        <input type="text" name="address" size="70" placeholder="your street address"><br>
+                        <input type="text" name="saddress2" size="70"  placeholder="Street Address Line 2"><br>
+                        <input type="text" name="City"size="70"  placeholder="City">
+                        <input type="text" name="State" size="65" placeholder="State/Province"><br>
+                        <input type="text" name="Postal" size="70"  placeholder="Postal/Zip Code"></td>
+                </tr>
+                <tr>
+                    <td><label for="row">Choose the Row </label><br>
+                        <input type="number" name="seat" placeholder="ex:21">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Seat">Seat Number</label><br>
+                        <input type="number" name="seat" placeholder="ex:46">
+                    </td>
+                </tr>
+                <tr align="center" bgcolor="green">
+                    <td> <input type="submit"name="submit" size="10" value="Confirm & Booked"></td>
+                </tr>
+                </tbody>
+            </table>        
+        </body>
+    </form>
+</html>        

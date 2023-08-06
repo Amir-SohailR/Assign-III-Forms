@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF=8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <h1 align="center"> Account Opening Form </h1>
+    <hr><hr>
+    <form>
+    <table align="center"  width="75%" cellspacing="1px" cellpadding="28px"  bgcolor="white" border="15px" >
+        <tbody width="75%" border="5px" bgcolor="whitesmoke" style="font-family:Calibri; font-size: 20px; font-weight: bold;">
+            <tr>
+                <td>Personal Information</td>
+            </tr>
+            <tr><td><label for="Fname">Full Name*</label></td></tr>
+            <tr>
+                <td><input type="text" name="gender" placeholder="Mr/Mrs/Ms"></td>
+                <td><input type="text" name="fname" placeholder="First Name"></td>
+                <td><input type="text" name="sname" placeholder="Second Name"></td>
+            </tr>
+            <td>  * Denotes this field is required</td>
+            <tr>
+                <td> Date of birth </td>
+            </tr>
+            <tr>
+                <td><input type="month" name="month" placeholder="month">
+                    <label for="Month">Month*</label></td>
+                <td><input type="number"name="month" placeholder="Date">
+                    <label for="number">date*</label></td>
+                <td><input type="year" name="year" placeholder="2023">
+                    <label for="Year">year*</label></td>
+            </tr>
+            <tr>
+                <td><label for="Month">Contact*</label><br>
+                    <input type="tel" name="number" placeholder="+91-00000 00000"></td>
+            </tr>
+            <tr>
+                <td><label for="Email">Email</label><br>
+                    <input type="email" name="email" placeholder="kyc@gmail.com"></td>
+            </tr>
+            <tr>
+                <td><label for="Address">Address</label><br>
+                    <input type="text" name="address" placeholder="your street address"></td>
+                    <td><input type="text" name="saddress2"  placeholder="Street Address Line 2"></td>
+                    <td><input type="text" name="City"  placeholder="City"></td>
+                    <td><input type="text" name="Postal"  placeholder="Postal/Zip Code"></td>
+            </tr>
+            <tr>
+                <td><label for="Country">Country</label><br>
+                 <select class="form-select" id="country" name="country">
+                    <option>select country</option>
+                    <option value="AF">Afghanistan</option>
+                    <option value="AX">Aland Islands</option>
+                    <option value="AL">Albania</option>
+                    <option value="DZ">Algeria</option>
+                    <option value="AS">American Samoa</option>
+                    <option value="AD">Andorra</option>
+                    <option value="AO">Angola</option>
+                    <option value="AI">Anguilla</option>
+                    <option value="AQ">Antarctica</option>
+                    <option value="AG">Antigua and Barbuda</option>
+                    <option value="AR">Argentina</option>
+                    <option value="AM">Armenia</option>
+                    <option value="AW">Aruba</option>
+                    <option value="AU">Australia</option>
+                    <option value="AT">Austria</option>
+                    <option value="AZ">Azerbaijan</option>
+                    <option value="BS">Bahamas</option>
+                    <option value="BH">Bahrain</option>
+                    <option value="BD">Bangladesh</option>
+                    <option value="BB">Barbados</option>
+                    <option value="BY">Belarus</option>
+                    <option value="BE">Belgium</option>
+                    <option value="BZ">Belize</option>
+                    <option value="BJ">Benin</option>
+                    <option value="BM">Bermuda</option>
+                    <option value="BT">Bhutan</option>
+                    <option value="BO">Bolivia</option>
+                    <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                    <option value="BA">Bosnia and Herzegovina</option>
+                    <option value="BW">Botswana</option>
+                    <option value="BV">Bouvet Island</option>
+                    <option value="BR">Brazil</option>
+                    <option value="IO">British Indian Ocean Territory</option>
+                    <option value="BN">Brunei Darussalam</option>
+                    <option value="BG">Bulgaria</option>
+                    <option value="BF">Burkina Faso</option>
+                    <option value="BI">Burundi</option>
+                    <option value="KH">Cambodia</option>
+                    <option value="CM">Cameroon</option>
+                    <option value="IN">India</option>
+                 </select></td>       
+            </tr>
+            <tr>
+                <td>Education Level</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="SSLC" value="High School or below">
+                    <label for="sslc">High School or below</label></td>
+                <td><input type="radio" name="UG" value="Undergraduate">
+                    <label for="sslc">Undergraduate</label></td>
+                <td><input type="radio" name="MD" value="Masters Degree">
+                    <label for="sslc">Masters Degree</label></td>
+                <td><input type="radio" name="PhD" value="PhD">
+                    <label for="sslc">PhD</label></td>
+            </tr>        
+            <tr>
+                <td>Form Of Identification</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="NIC" value="National Identity Card">
+                    <label for="card">National Identity Card</label></td>
+                <td><input type="checkbox" name="DL" value="Driver's License">
+                    <label for="License">Driver's License</label></td>
+                <td><input type="checkbox" name="Passport" value="International Passport">
+                    <label for="IP">International Passport</label></td>
+                <td><input type="checkbox" name="Id" value="Student ID">
+                    <label for="Student ID">Student ID</label></td>
+            </tr>
+            <tr>
+                <td>ID CARD Upload</td><br>
+                <td ><input type="file" id="files" value="Browse files" placeholder="drop files here"></td>
+            </tr><br>
+            <tr align="center" bgcolor="green">
+                <td><input type="submit" name="submit" value="Submit"></td>
+            </tr>
+        </tbody>
+    </table>
+    </form>
+</html>    
